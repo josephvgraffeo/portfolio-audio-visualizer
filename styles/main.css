@@ -10,7 +10,7 @@
     background-position: center center;
     background-size: cover;
 
-    animation: hue-rotate-animation 15s ease-in-out infinite;
+    animation: hue-rotate-animation 12s ease-in-out infinite;
 }
 
 @keyframes hue-rotate-animation {
@@ -27,9 +27,10 @@
 
     top: 200px;
     right: 0px;
-    left: 0px;
+    left: 12px;
 
     color: #f4f5f6;
+    text-shadow: 3px 3px 5px #ff60aa, -2px -2px 5px #17b5f4;
     font-family: monospace;
     font-size: 55px;
     text-align: center;
@@ -67,10 +68,28 @@
 
 .play {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
+    font-size: 16px;
+    font-family: monospace;
     text-align: center;
     justify-content: center;
     align-content: center;
-    display: inline-block;
+    display: inline;
+    top: 670px;
+    right: 670px;
+    padding: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ff60aa, 1px 1px 2px #17b5f4;
+    background-color: #000000a8;
+    transition: all 0.2s ease-in-out;
+}
+
+.play:hover {
+    background-color: #000000e2;
+    transform: scale(1.1);
+}
+
+.play:active {
+    filter: invert();
 }
 

@@ -1,0 +1,76 @@
+.background {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-image: url(/images/futureretro.webp);
+    background-position: center center;
+    background-size: cover;
+
+    animation: hue-rotate-animation 15s ease-in-out infinite;
+}
+
+@keyframes hue-rotate-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.track-title {
+    position: absolute;
+
+    top: 200px;
+    right: 0px;
+    left: 0px;
+
+    color: #f4f5f6;
+    font-family: monospace;
+    font-size: 55px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.visualizer-container {
+    position: absolute;
+
+    bottom: 200px;
+    right: 0px;
+    left: 0px;
+
+    height: 200px;
+    z-index: 2;
+
+    text-align: center;
+}
+
+.visualizer-container-bar {
+    display: inline-block;
+    background: linear-gradient(#ff00a6e4, #07d5f0d5);
+    filter: blur(30%);
+    margin: 0px 2px;
+    width: 15px;
+
+    height: 135px;
+}
+
+.track {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+}
+
+.play {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+}
+

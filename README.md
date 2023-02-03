@@ -1,5 +1,5 @@
 # Audio Visualizer Project
-Heard a song I liked and it inspired me to make a basic retro/future visualizer.
+Heard a song I liked and it inspired me to make a basic audio visualizer.
 
 Only capable of processing the one song right now, but future plans are to let you upload any mp3 and have it work.
 

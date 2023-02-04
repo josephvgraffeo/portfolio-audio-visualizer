@@ -7,4 +7,4 @@ TLDR; It takes sound and converts the audio into frequency data which was then u
 
 ![Screenshot](/images/nfav.webp)
 
-[Check it out!](https://audio-visualizer-project.web.app)
+[Check it out!](https://audio-visualizer-project-jg.web.app)
